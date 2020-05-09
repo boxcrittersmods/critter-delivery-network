@@ -2,6 +2,12 @@
 
 A simple Cloudflare Worker to cache and set MIME type headers of the BCMC web resources.
 
+## Usage
+To access to some BCMC resource, enter a URL using the following schema:
+```
+https://cdn.boxcrittersmods.ga/REPO/BRANCH/FILE_PATH
+```
+
 ## Licensing
 All the code of this project is licensed under the [Apache License version 2.0](https://github.com/boxcritters/crittersdk/blob/master/LICENSE) (Apache-2.0).
 
