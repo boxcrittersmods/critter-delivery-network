@@ -5,7 +5,7 @@ A simple Cloudflare Worker to cache and set MIME type headers of the BCMC web re
 ## Usage
 To access to some BCMC resource, enter a URL using the following schema:
 ```
-https://cdn.boxcrittersmods.ga/REPO/BRANCH/FILE_PATH
+https://cdn.bcmc.ga/REPO/BRANCH/FILE_PATH
 ```
 
 ## Licensing
