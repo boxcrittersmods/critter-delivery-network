@@ -37,7 +37,7 @@ async function handle(req)
 {
 	var url = new URL(req.url);
 	var extension = url.pathname.split(".").pop();
-	var res = await fetch("https://raw.githubusercontent.com/boxcritters/" + url.pathname, {
+	var res = await fetch("https://raw.githubusercontent.com/boxcrittersmods/" + url.pathname, {
 		cf: {
 			cacheTtl: 5,
 			cacheEverything: true,
